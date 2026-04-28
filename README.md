@@ -48,4 +48,4 @@ We evaluate our method on four public age synthesis / age progression benchmarks
 2. git clone https://github.com/SE-hash/HCFace.git
 3. cd HCFace
 4. pip install requirement.txt
-5. follow main.py, Note that you should ensure that the number of compute cards you can use matches the number specified in `--nproc_per_node=x`
+5. Follow main.py, replace your GPU number and dataset name. Note that you should ensure that the number of compute cards you can use matches the number specified in `--nproc_per_node=x`
