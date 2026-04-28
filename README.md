@@ -16,11 +16,12 @@ We propose a novel **Hierarchical Causal Face Synthesis (HCFace)** framework tha
 
 ### Training Dataset
 
-We train our model using the **MS1M** dataset, a large-scale face recognition dataset.
+We recommend train model using the **MS1M** or **CASIA-Webface** dataset, a large-scale face recognition dataset.
 
-| Dataset                | Description                                                  | Download Link                                               |
-| :--------------------- | :----------------------------------------------------------- | :---------------------------------------------------------- |
-| **MS1M** (MS-Celeb-1M) | ~10M images, 100k identities. We use the cleaned `faces_emore` version. | [AI Studio](https://aistudio.baidu.com/datasetdetail/22814) |
+| Dataset                | Description                                                  | Download Link                                                |
+| :--------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| **MS1M** (MS-Celeb-1M) | ~10M images, 100k identities. We use the cleaned `faces_emore` version. | [Link](https://aistudio.baidu.com/datasetdetail/22814)       |
+| **CASIA-Webface**      | 10K ids/0.5M images                                          | [Link](https://drive.google.com/file/d/1KxNCrXzln0lal3N4JiYl9cFOIhT78y1l/view?usp=sharing) |
 
 ### Testing Datasets
 
@@ -48,4 +49,3 @@ We evaluate our method on four public age synthesis / age progression benchmarks
 3. cd HCFace
 4. pip install requirement.txt
 5. follow main.py, Note that you should ensure that the number of compute cards you can use matches the number specified in `--nproc_per_node=x`
-
